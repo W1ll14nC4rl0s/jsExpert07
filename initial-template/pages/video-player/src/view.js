@@ -36,4 +36,8 @@ export default class View {
         this.#status.innerHTML = text
     }
 
+    setVideoSrc(url){
+        this.#videoElement.src = url
+    }
+
 }
